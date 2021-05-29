@@ -26,7 +26,7 @@ then
     FPS="-f"
 fi
 sleep 1
-if [[ "$1" =~ "pcsx_rearmed" ]] || [[ "$1" =~ "parallel_n64" ]] || [[ "$1" =~ "uae4arm" ]]
+if [[ "$1" =~ "pcsx_rearmed" ]] || [[ "$1" =~ "parallel_n64" ]] || [[ "$1" =~ "uae4arm" ]] || [[ "$1" =~ "gpsp" ]]
 then
     echo 'using 32bit'
   	export LD_LIBRARY_PATH="/usr/lib32"
