@@ -1,0 +1,20 @@
+--- a/src/osdep/amiberry_whdbooter.cpp	2021-05-31 16:10:36.000000000 +0100
++++ b/src/osdep/amiberry_whdbooter.cpp	2021-06-05 14:32:56.672131187 +0100
+@@ -1044,7 +1044,7 @@
+ 	}
+ 
+ 	// SCREEN AUTO-HEIGHT
+-	if (strcmpi(game_detail.scr_autoheight, "true") == 0)
++	/*if (strcmpi(game_detail.scr_autoheight, "true") == 0)
+ 	{
+ 		_stprintf(txt2, "amiberry.gfx_auto_height=true");
+ 		cfgfile_parse_line(prefs, txt2, 0);
+@@ -1053,7 +1053,7 @@
+ 	{
+ 		_stprintf(txt2, "amiberry.gfx_auto_height=false");
+ 		cfgfile_parse_line(prefs, txt2, 0);
+-	}
++	}*/
+ 
+ 	// SCREEN CENTER/HEIGHT/WIDTH
+ 	if (strcmpi(game_detail.scr_centerh, "smart") == 0)
